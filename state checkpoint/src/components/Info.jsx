@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import images from './images.jpg'
 
 class Info extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ componentWillUnmount = () => {
   <div class="row align-items-center">
     <div class="d-flex justify-content-center space-around">
         <div className="card " style={{width: '18rem'}}>
-  <img src="" className="card-img-top" alt=""/>
+  <img src={images} className="card-img-top" alt=""/>
   <div className="card-body">
     <h5 className="card-title">Chaima SOUILAH</h5>
     <h6>Georesources and Environment Engineer</h6>
